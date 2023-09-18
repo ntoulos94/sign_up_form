@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="image">
+        <div class="logo-section">
+          <img src="./images/fox-logo.svg" alt="" class="logo-img" />
+          <h1 class="logo-title">Foxiebook</h1>
+        </div>
+      </div>
+      <div class="content">
+        <div class="info">
+          <p>
+            This is not a real online service! It is just a test form created for OdinProject! Sign up now
+            to get started. 🦊
+          </p>
+        </div>
+        <form action="#">
+          <div class="form">
+            <p class="form-title">Sign up fellow Foxies!</p>
+            <div class="input">
+              <label for="first-name">First name *</label>
+              <input type="text" name="first-name" id="first-name" required />
+            </div>
+
+            <div class="input">
+              <label for="last-name">Last name</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+
+            <div class="input">
+              <label for="email">Email *</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="input">
+              <label for="phone-number">Phone number</label>
+              <input
+                type="text"
+                name="phone-number"
+                id="phone-number"
+                minlength="10"
+                maxlength="10"
+                required
+              />
+            </div>
+
+            <div class="input">
+              <label for="password">Password *</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+
+            <div class="input">
+              <label for="confirm-password">Confirm password *</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                required
+              />
+            </div>
+          </div>
+          <div class="submit-button">
+            <button class="button" type="submit">Create Account</button>
+          </div>
+        </form>
+        <div class="log-in">Already have an account? <a href="">Log in</a></div>
+      </div>
+    </div>
+  </body>
+</html>
